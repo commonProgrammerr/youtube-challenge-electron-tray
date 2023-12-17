@@ -56,6 +56,12 @@ function render(tray = mainTray) {
         },
       },
       {
+        label: locale.bash,
+        click: () => {
+          spawn('gnome-terminal', ['--working-directory', path], { shell: true });
+        },
+      },
+      {
         label: locale.remove,
         click: () => {
           store.set('projects', JSON.stringify(projects.filter(item => item.path !== path)));

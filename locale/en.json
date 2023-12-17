@@ -1,5 +1,6 @@
 {
     "open": "Open with VSCode",
+    "bash": "Open in Terminal",
     "add": "Add new project folder...",
     "close": "Quit",
     "remove": "Remove"
